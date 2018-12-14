@@ -13,7 +13,7 @@ startdate: 2019-01-10      # machine-readable start date for the workshop in YYY
 enddate: 2019-01-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Josh Hatzis", "Braden Owsley"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["braden.owsley@ou.edu","jjhatzis@ou.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: "53752050831"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -46,11 +46,6 @@ eventbrite: "53752050831"          # optional: alphanumeric key for Eventbrite r
   scrolling="auto">
 </iframe>
 {% endif %}
-
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -301,7 +296,7 @@ and our administrator may contact you if we need any extra information.</h4>
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-<div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
+<!-- <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
 
   <p>
@@ -392,7 +387,8 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
-
+--->
+<!-- 
 <div id="git"> {% comment %} Start of 'Git' section. {% endcomment %}
   <h3>Git</h3>
   <p>
@@ -449,7 +445,9 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
+-->
 
+<!--
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
 
@@ -509,7 +507,9 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
+-->
 
+<!--
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
@@ -602,6 +602,7 @@ and our administrator may contact you if we need any extra information.</h4>
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
+--->
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
@@ -654,6 +655,7 @@ and our administrator may contact you if we need any extra information.</h4>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
+<!--
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -694,12 +696,13 @@ and our administrator may contact you if we need any extra information.</h4>
       </p>
     </div>
   </div>
-
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
+--->
+<!--
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -746,7 +749,7 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
-
+--->
 {% comment %}
 <div id="vm">
   <h3>Virtual Machine</h3>
